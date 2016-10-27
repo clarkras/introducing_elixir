@@ -9,7 +9,8 @@ defmodule CountUp do
     countup(n + 1, limit)
   end
 
-  defp countup(_count, _limit) do
+  defp countup(_count, limit) do
     IO.puts "finished!"
+    limit
   end
 end
